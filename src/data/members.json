@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Dr Maurice Vivarini",
+        "img": "https://i.ibb.co/zFwzZs8/team-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Dr Ken Chan",
+        "img": "https://i.ibb.co/8cXjYwN/team-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dr Mia Sovers",
+        "img": "https://i.ibb.co/m4QNLc2/team-3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Dr Vijay Karna",
+        "img": "https://i.ibb.co/dM8g5zd/team-4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dr Danica Wong",
+        "img": "https://i.ibb.co/3C6mTTH/team-5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Dr Wilson Fung",
+        "img": "https://i.ibb.co/47CFr54/team-6.jpg"
+    }
+]

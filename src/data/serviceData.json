@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Immunisations",
+        "img": "https://i.ibb.co/Jt2M2Pz/service-1.jpg",
+        "description": "Vaccination is a vital part of preventive medicine, from new born babies through to adulthood. At our practices we have multiple immunisation practitioner nurses, who together with our doctors provide this service to our patients."
+    },
+    {
+        "id": 2,
+        "name": "Travel Vaccinations",
+        "img": "https://i.ibb.co/Ch70vzH/service-2.jpg",
+        "description": "Planning travel can be an exciting time however it is vital for you to prepare and be adequately immunised prior to starting your holiday. Our doctors can provide comprehensive travel consultations and can advise you what vaccinations are required for all destinations.Please make double appointment with your doctor well in advance as some vaccinations are required to be given over a specific time frame.In addition to vaccinations we may provide other advice specific to your destination. For your convenience our practices store most travel vaccinations, and these are to be paid for on the day of service."
+    },
+    {
+        "id": 3,
+        "name": "Over 75 Health",
+        "img": "https://i.ibb.co/0VTwBrn/service-3.jpg",
+        "description": "Over 75 Health Assessments are a part of the Federal Government initiatives designed to promote and maintain good health as well as independence for older Australians. This is a full comprehensive annual medical check and there is no out-of-pocket expense.The assessment usually takes an hour and provides a detailed overall view of your general health. The check covers areas such as sight, hearing, diet, your current medications and your immunisations.At the conclusion of the health assessment you will discuss the findings with your own Doctor."
+    },
+    {
+        "id": 4,
+        "name": "Chronic Diseases",
+        "img": "https://i.ibb.co/Bj6zT7n/service-4.jpg",
+        "description": "PortsMouth Surgery employs a full time nurse to oversee chronic disease management. A chronic medical condition is one that has been present for six months or longer. For example, it includes conditions such as diabetes, heart disease, asthma and arthritis requiring specialist care. Your Doctor will assess whether a plan is appropriate for you. We work with our patients on prevention of chronic diseases and provide regular checks relevant to their condition to achieve better outcomes."
+    },
+    {
+        "id": 5,
+        "name": "Minor Procedures",
+        "img": "https://i.ibb.co/YBKVQJS/service-5.jpg",
+        "description": "Doctors at our practices are able to perform minor procedures in our new well-equipped treatment rooms with the assistance of our nurse. We have an autoclave for the sterilisation of equipment and instruments and we are fully accredited and comply with Australian standards and regulations.Minor procedures, such as excisions and suturing require a longer consult. Please ensure you advise our reception staff upon making an appointment so that we can ensure adequate time is allowed with your doctor. There is a non-refundable fee for these minor procedures."
+    },
+    {
+        "id": 6,
+        "name": "Skin Cancer Checks",
+        "img": "https://i.ibb.co/YcsxsKF/service-6.jpg",
+        "description": "Most skin cancer can be successfully treated if it is found early. But without treatment, skin cancer can be deadly. All Australians are encouraged to protect their skin from the damage caused by UV rays of the sun and to get to know your skin. Check all of your skin, not just sun-exposed areas. If you notice anything unusual, including any change in shape, colour or size of a spot, or a new spot, visit your doctor as soon as possible.Dr Denise Bullen has a special interest in skin cancer, and has a Diploma in Skin Cancer Medicine. Dr Bullen can provide head to toe skin checks and management options based on current best evidence guidelines. Skin checks are recommended every 6-12 months, depending on the individual’s risk factors. Please contact our friendly staff to book your Skin Check."
+    }
+]

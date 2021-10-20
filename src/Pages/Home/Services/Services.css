@@ -1,0 +1,7 @@
+.service-wrap {
+    margin-bottom: 100px;
+}
+.service-wrap button.btn.btn-primary.btn-lg {
+    background: #007FA0;
+    border-radius: 0px;
+}

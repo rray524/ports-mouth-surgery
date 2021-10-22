@@ -1,0 +1,28 @@
+img.side-img {
+    width: 100%;
+    height: 298px;
+}
+.sidebar-area a.active {
+    display: block;
+    text-align: center;
+    background: #FFC72C;
+    padding: 12px 0;
+    text-decoration: none;
+    background-color: #017FA0;
+}
+
+.sidebar-area a {
+    display: block;
+    text-align: center;
+    background: #FFC72C;
+    padding: 12px 0;
+    text-decoration: none;
+    color: darkslategray;
+}
+.sidebar-area a:hover{
+    background-color: #017FA0;
+    color: white;
+}
+img.service-img {
+    width: 100%;
+}

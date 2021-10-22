@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
-import jsonData from '../../../data/serviceData.json'
+import jsonData from '../../../data/serviceData.json';
 import Service from '../../Service/Service';
 import './Services.css';
 

@@ -1,9 +1,11 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import './Header.css'
+import useAuth from '../../../hooks/useAuth';
+import './Header.css';
 
 const Header = () => {
+    const { logOut, user } = useAuth();
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
@@ -17,10 +19,13 @@ const Header = () => {
                         <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#deets">Login</Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
-                            Rahul
-                        </Nav.Link>
+                        {user.displayName ? <button onClick={logOut} className="btn-warning">Log Out</button>
+                            : <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                        }
+                        {user.displayName && <Nav.Link eventKey={2} href="#memes">
+                            <img className="user-header-img" src={user.photoURL} alt="" />
+                        </Nav.Link>}
+
                     </Nav>
                 </Navbar.Collapse>
             </Container>

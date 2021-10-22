@@ -1,5 +1,5 @@
-.carousel-item img{
-    filter: brightness(0.2);
+.carousel-item img.slider{
+    filter: brightness(0.4);
 }
 .logo {
     margin-bottom: 119px;

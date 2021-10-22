@@ -13,13 +13,14 @@ const Service = ({ service }) => {
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>
-                        <p>{description.slice(0, 182)}</p>
+                        {description.slice(0, 182)}
                     </Card.Text>
                 </Card.Body>
-                <Link to="/seviceDetails">
+                <Link to={`/service/${id}`}>
                     <Button variant="primary" size="lg">
                         Learn More
-                    </Button></Link>
+                    </Button>
+                </Link>
             </Card>
         </Col>
     );

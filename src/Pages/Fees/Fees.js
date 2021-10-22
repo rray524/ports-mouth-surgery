@@ -1,12 +1,23 @@
 import React from 'react';
-import feeImg from '../../images/fees.png'
+import { Col, Container, Row } from 'react-bootstrap';
+import Sidebar from '../../hooks/Sidebar';
+import feeImg from '../../images/fees.png';
+import './Fees.css'
 
 const Fees = () => {
+    const sideBar = Sidebar();
     return (
-        <div className='container my-'>
+        <Container my-5>
             <h2 className="my-5">Fees</h2>
-            <img src={feeImg} alt="" />
-        </div>
+            <Row>
+                <Col xs={12} md={8}>
+                    <img className="fees-img" src={feeImg} alt="" />
+                </Col>
+                <Col xs={12} md={4}>
+                    {sideBar}
+                </Col>
+            </Row>
+        </Container>
     );
 };
 

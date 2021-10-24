@@ -8,4 +8,4 @@ This project was hosted at firebase hosting [live link](https://simple-react-aut
 - Uses private Routing(protected page) for patient fees and patient Form. 
 - Uses google sign in option and authentic Email login option ( with simple verify link confirmation ) after sign up.
 - Uses react google map location
-- Uses Font awesome icon & Form validation end error enabled.
+- Uses Font awesome icon & Form validation & form input error enabled.

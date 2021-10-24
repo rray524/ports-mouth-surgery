@@ -1,4 +1,4 @@
-import React, { memo, Component } from 'react';
+import React, { memo } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import './Footer.css';

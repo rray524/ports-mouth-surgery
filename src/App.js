@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import Header from './Pages/Shared/Header/Header';
 import Home from './Pages/Home/Home';
 import Fees from './Pages/Fees/Fees';
@@ -11,6 +11,8 @@ import NotFound from './Pages/NotFound/NotFound';
 import Login from './Pages/Login/Login';
 import Registration from './Pages/Login/Registration';
 import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
+import PatientForm from './Pages/PatientForm/PatientForm';
 
 
 function App() {
@@ -18,7 +20,7 @@ function App() {
     <div className="container-wrap">
 
       <AuthProvider>
-        <BrowserRouter>
+        <Router>
           <Header></Header>
           <Switch>
             <Route exact path="/">
@@ -30,15 +32,18 @@ function App() {
             <Route path="/about">
               <AboutUs></AboutUs>
             </Route>
-            <Route path="/fees">
+            <PrivateRoute path="/fees">
               <Fees></Fees>
-            </Route>
+            </PrivateRoute>
+            <PrivateRoute path="/form">
+              <PatientForm></PatientForm>
+            </PrivateRoute>
             <Route path="/contact">
               <Contact></Contact>
             </Route>
-            <Route path="/service/:serviceID">
+            <PrivateRoute path="/service/:serviceID">
               <ServiceDetails></ServiceDetails>
-            </Route>
+            </PrivateRoute>
             <Route path="/login">
               <Login></Login>
             </Route>
@@ -50,7 +55,7 @@ function App() {
             </Route>
           </Switch>
           <Footer></Footer>
-        </BrowserRouter>
+        </Router>
       </AuthProvider>
 
 

@@ -1,4 +1,4 @@
-import { NavLink, Redirect } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import sideBarImg from '../images/slider-1.jpg'
 
 const Sidebar = () => {
@@ -31,6 +31,15 @@ const Sidebar = () => {
             }}
         >
             Fees
+        </NavLink>
+        <NavLink
+            to="/form"
+            activeStyle={{
+                fontWeight: "bold",
+                color: "black"
+            }}
+        >
+            Form
         </NavLink>
         <NavLink
             to="/contact"

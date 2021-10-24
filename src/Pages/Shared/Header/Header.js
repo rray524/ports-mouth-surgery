@@ -15,14 +15,16 @@ const Header = () => {
                     <Nav className="me-auto">
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <Nav.Link as={Link} to="/about">About</Nav.Link>
-                        <Nav.Link as={Link} to="/fees">Fees</Nav.Link>
+                        <Nav.Link as={Link} to="/fees">Patient Fees</Nav.Link>
+                        <Nav.Link as={Link} to="/form">Patient Form</Nav.Link>
                         <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                     </Nav>
                     <Nav>
-                        {user.displayName ? <button onClick={logOut} className="btn-warning">Log Out</button>
+                        {(user.displayName || user.emailVerified) ? <button onClick={logOut} className="btn-warning">Log Out</button>
                             : <Nav.Link as={Link} to="/login">Login</Nav.Link>
                         }
-                        {user.displayName && <Nav.Link eventKey={2} href="#memes">
+
+                        {(user.displayName || user.emailVerified) && <Nav.Link eventKey={2} as={Link} to="/">
                             <img className="user-header-img" src={user.photoURL} alt="" />
                         </Nav.Link>}
 

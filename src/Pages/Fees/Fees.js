@@ -7,7 +7,7 @@ import './Fees.css'
 const Fees = () => {
     const sideBar = Sidebar();
     return (
-        <Container my-5>
+        <Container>
             <h2 className="my-5">Fees</h2>
             <Row>
                 <Col xs={12} md={8}>

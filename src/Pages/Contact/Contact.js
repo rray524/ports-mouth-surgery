@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Sidebar from '../../hooks/Sidebar';
+import "./Contact.css"
 
 const Contact = () => {
     const sideBar = Sidebar();
@@ -9,9 +10,9 @@ const Contact = () => {
             <Row>
                 <Col xs={12} md={8}>
                     < h2 className='my-5' > Contact</h2 >
-                    <p>Phone (03)9435 0711</p>
-
-                    <p>Email: grs@gmail.com</p>
+                    <a className='phn' href="tel:123-456-7890">Call us at 123-456-7890</a>
+                    <br />
+                    <a className="mail" href="mailto: grs@gmail.com">Email: grs@gmail.com</a><br /><br />
 
                     <p>It is important you notify us of any change of address and phone number immediately. We will ask you to identify yourself with your current address and date of birth.</p>
 

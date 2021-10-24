@@ -25,7 +25,7 @@ const Header = () => {
                         }
 
                         {(user.displayName || user.emailVerified) && <Nav.Link eventKey={2} as={Link} to="/">
-                            <img className="user-header-img" src={user.photoURL} alt="" />
+                            <img className="user-header-img" src={user.displayName} alt="" />
                         </Nav.Link>}
 
                     </Nav>
